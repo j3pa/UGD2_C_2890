@@ -1,7 +1,7 @@
 :root{
-  --left: #a9d0ff;
-  --right: #5424ff;
-  --divider: #85b4ff;
+  --left: #4599FE;
+  --right: #EE0405;
+  --divider: #031E49;
 
   --text: #111;
   --muted: rgba(0,0,0,.45);
@@ -16,7 +16,7 @@ html, body{ height: 100%; }
 
 body{
   font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  overflow-x: hidden;           /* biar bisa scroll ke bawah */
+  overflow-x: hidden;          /* biar bisa scroll ke bawah */
   background: #000;            /* aman, tapi tidak mengganggu hero */
 }
 
@@ -46,7 +46,7 @@ body{
 /* divider diagonal */
 .divider{
   position: absolute;
-  top: -10vh;                  /* dipanjangin biar tidak patah */
+  top: -20vh;                  /* dipanjangin biar tidak patah */
   bottom: -20vh;
   left: 50%;
   width: 300px;

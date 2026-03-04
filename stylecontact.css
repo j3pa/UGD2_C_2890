@@ -16,7 +16,7 @@ html, body{ height: 100%; }
 
 body{
   font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  overflow-x: hidden;           /* biar bisa scroll ke bawah */
+  overflow-x: hidden;          /* biar bisa scroll ke bawah */
   background: #000;            /* aman, tapi tidak mengganggu hero */
 }
 
